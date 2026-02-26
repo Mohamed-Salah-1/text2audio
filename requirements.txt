@@ -1,0 +1,19 @@
+streamlit
+edge-tts
+python-dotenv
+langdetect
+asyncio
+
+# Free TTS Engines
+gTTS>=2.5.0
+pyttsx3>=2.90
+silero>=0.5.0
+torch>=2.0.0
+
+# Neural TTS (Optional - Large download)
+# TTS>=0.22.0
+
+# Audio Processing
+scipy
+numpy
+soundfile

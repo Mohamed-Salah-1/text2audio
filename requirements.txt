@@ -17,3 +17,5 @@ torch>=2.0.0
 scipy
 numpy
 soundfile
+deep-translator
+gTTS

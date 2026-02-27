@@ -66,6 +66,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Display Artiforia-Hub logo at the top
+st.markdown("<div style='text-align:center;margin-bottom:1.5rem;'>", unsafe_allow_html=True)
+st.image("artiphoria - logo.png", width=180)
+st.markdown("<span style='display:block;font-size:1.5rem;font-weight:800;color:#00d2ff;text-shadow:0 2px 8px #3a7bd5, 0 0 2px #00ff88;margin-top:0.5rem;'>Artiforia-Hub</span>", unsafe_allow_html=True)
+st.markdown("</div>", unsafe_allow_html=True)
+
 # Premium CSS
 st.markdown("""
 <style>
@@ -724,7 +730,7 @@ with col_left:
 # Footer
 st.markdown("---")
 st.markdown("""
-<p style='text-align: center; color: #808080; font-size: 0.85rem;'>
-Powered by Advanced Neural TTS Technology
+<p style='text-align: center; color: #00d2ff; font-size: 1rem; font-weight:700; letter-spacing:1px;'>
+Powered by Artiphoria-Hub Technology
 </p>
 """, unsafe_allow_html=True)
